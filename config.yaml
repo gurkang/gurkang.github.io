@@ -1,0 +1,22 @@
+spectaql:
+  logoFile: ./logo.jpg
+
+introspection:
+  url: 'http://localhost:3000/graphql'
+
+info:
+  title: Volvo Cars - Graph Documentation
+  description:
+    'Woop Woop Documentation
+
+
+    [View GraphQL playground](link)'
+  contact:
+    name: Volvo Cars
+    url: https://volvoCarsGraphqlEndpoint.com
+    email: fedteam@volvocars.com
+
+servers:
+  - url: 'http://localhost:3000/graphql'
+    description: Production
+    production: false
