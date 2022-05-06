@@ -1,0 +1,25 @@
+spectaql:
+  logoFile: /src/images/volvo-wordmark-black.svg
+
+introspection:
+  removeTrailingPeriodFromDescriptions: false
+  schemaFile: ./schema.graphql
+  queryNameStategy: capitalizeFirst
+  fieldExpansionDepth: 2
+
+extensions:
+  graphqlScalarExamples: true
+
+info:
+  title: Volvo GraphQL Documentation
+  description: Volvo Cars GraphQL Documentation
+  contact:
+    name: GOX Support
+    email: gox.graphql.federation@volvocars.com
+
+servers:
+  - url: https://studio.apollographql.com/graph/Onstage-Graphql-Federation/explorer?variant=production
+    description: Production Endpoint
+    production: true
+  - url: https://studio.apollographql.com/graph/Onstage-Graphql-Federation/explorer?variant=staging
+    description: Staging Endpoint
